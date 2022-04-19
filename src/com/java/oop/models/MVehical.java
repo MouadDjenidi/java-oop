@@ -1,4 +1,4 @@
-package com.java.oop;
+package com.java.oop.models;
 
 import lombok.Data;
 
@@ -12,6 +12,6 @@ public class MVehical {
 	private boolean isLargeLoads = false;
 	private boolean isLarge = false;
 	private int nbrOfWeels = 0;
-	private String  VehicalType;
+	private String  VehicalType = "";
 	
 }
