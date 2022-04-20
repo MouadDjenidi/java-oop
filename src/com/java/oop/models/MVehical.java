@@ -3,7 +3,11 @@ package com.java.oop.models;
 import lombok.Data;
 
 @Data
-public class MVehical {
+public class MVehical extends SModel {
+	
+	public MVehical(){
+		setObjectName("Vehicale");
+	};
 	
 	private boolean hasGasBalloon = false;
 	private boolean hasWings = false;
